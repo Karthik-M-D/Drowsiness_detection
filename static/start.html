@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: aqua;
+            text-align: center;
+        }
+        h1{
+            margin: 3rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+        input{
+            padding: 10px 30px;
+            border-radius: 30px;
+            margin-top: 3rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="start-container">
+        <h1>DROWSINESS DETECTION</h1>
+        <p>Use this website to detect drowsiness and alert the user when their eyes are closing or they are showing
+            signs of fatigue.</p>
+        <p>Click the button below to start the drowsiness detection:</p>
+
+        <form method="post" action="/start">
+            <input type="submit" name="Start" value="Start">
+        </form>
+    </div>
+</body>
+
+</html>
